@@ -15,7 +15,6 @@ function renderMenuItems() {
     return items.map(item => (
         <Link to={item.link} className={'dashboard__item'}>
         <div>
-
                 <span className={'dashboard__text'}>{item.name}</span>
         </div>
         </Link>
