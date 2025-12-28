@@ -1,0 +1,19 @@
+#root {
+  background: rgb(48 0 0 / 84%);
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e2f, #3a3a5c);
+}

@@ -1,0 +1,76 @@
+.homepage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background-color: #121212;
+  text-align: center;
+  width: 100%;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1605902711622-cfb43c4437b0') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ff4757;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e84118;
+}
+
+.features {
+  padding: 60px 20px;
+  background-color: #1e1e1e;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.cta {
+  padding: 60px 20px;
+  background-color: #ff4757;
+  color: #fff;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #1e1e1e;
+}
