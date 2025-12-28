@@ -13,11 +13,12 @@ let items = [{
 
 function renderMenuItems() {
     return items.map(item => (
-        <div className={'dashboard__item'}>
-            <Link to={item.link}>
-                <span className={'dashboard_text'}>{item.name}</span>
-            </Link>
+        <Link to={item.link} className={'dashboard__item'}>
+        <div>
+
+                <span className={'dashboard__text'}>{item.name}</span>
         </div>
+        </Link>
     ))
 }
 

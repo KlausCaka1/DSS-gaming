@@ -1,8 +1,10 @@
+import './Form.scss'
+
 function Form() {
     return (
-        <span>
+        <div className={'container'}>
             Form works
-        </span>
+        </div>
     );
 }
 

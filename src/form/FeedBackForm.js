@@ -33,7 +33,7 @@ function FeedBackForm() {
 
     return (
         <div className={'container'}>
-            <div>
+            <div className={'back-button'}>
                 <Link to={'/'}>
                     <span>Go Home</span>
                 </Link>

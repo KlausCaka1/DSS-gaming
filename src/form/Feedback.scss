@@ -17,3 +17,16 @@ html, body, #root {
   align-items: center;
   background: linear-gradient(135deg, #1e1e2f, #3a3a5c);
 }
+
+.back-button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
