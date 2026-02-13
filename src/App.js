@@ -9,7 +9,11 @@ let items = [{
 }, {
     name: 'Feedback From',
     link: '/feedback'
-}]
+}, {
+    name: 'Tickets',
+    link: '/tickets'
+}
+]
 
 function renderMenuItems() {
     return items.map(item => (

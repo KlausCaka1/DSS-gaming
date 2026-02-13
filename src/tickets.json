@@ -1,0 +1,92 @@
+[
+  {
+    "id": "GD-101",
+    "title": "Fix character movement bug",
+    "priority": "High",
+    "status": "In Progress"
+  },
+  {
+    "id": "GD-102",
+    "title": "Design new enemy AI",
+    "priority": "Medium",
+    "status": "Open"
+  },
+  {
+    "id": "GD-103",
+    "title": "Implement multiplayer lobby",
+    "priority": "High",
+    "status": "Completed"
+  },
+  {
+    "id": "GD-104",
+    "title": "Update game UI animations",
+    "priority": "Low",
+    "status": "Open"
+  },
+  {
+    "id": "GD-105",
+    "title": "Optimize rendering performance",
+    "priority": "High",
+    "status": "In Progress"
+  },
+  {
+    "id": "GD-106",
+    "title": "Add background music to Level 2",
+    "priority": "Medium",
+    "status": "Completed"
+  },
+  {
+    "id": "GD-107",
+    "title": "Fix collision detection issues",
+    "priority": "High",
+    "status": "Open"
+  },
+  {
+    "id": "GD-108",
+    "title": "Create boss fight mechanics",
+    "priority": "High",
+    "status": "In Progress"
+  },
+  {
+    "id": "GD-109",
+    "title": "Implement save/load system",
+    "priority": "Medium",
+    "status": "Open"
+  },
+  {
+    "id": "GD-110",
+    "title": "Improve NPC dialogue system",
+    "priority": "Low",
+    "status": "Completed"
+  },
+  {
+    "id": "GD-111",
+    "title": "Add controller support",
+    "priority": "Medium",
+    "status": "In Progress"
+  },
+  {
+    "id": "GD-112",
+    "title": "Fix memory leak in game loop",
+    "priority": "High",
+    "status": "Open"
+  },
+  {
+    "id": "GD-113",
+    "title": "Create new particle effects",
+    "priority": "Low",
+    "status": "Completed"
+  },
+  {
+    "id": "GD-114",
+    "title": "Refactor inventory system",
+    "priority": "Medium",
+    "status": "In Progress"
+  },
+  {
+    "id": "GD-115",
+    "title": "Add achievements system",
+    "priority": "Low",
+    "status": "Open"
+  }
+]
