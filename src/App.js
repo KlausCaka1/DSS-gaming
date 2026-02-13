@@ -12,6 +12,9 @@ let items = [{
 }, {
     name: 'Tickets',
     link: '/tickets'
+}, {
+        name: 'Characters',
+        link: '/characters'
 }
 ]
 
