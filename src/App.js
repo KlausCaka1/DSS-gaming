@@ -15,7 +15,11 @@ let items = [{
 }, {
         name: 'Characters',
         link: '/characters'
-}
+},
+    {
+        name: 'Story',
+        link: '/story'
+    }
 ]
 
 function renderMenuItems() {

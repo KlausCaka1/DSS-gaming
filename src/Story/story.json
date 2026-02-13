@@ -1,0 +1,117 @@
+{
+  "title": "Echoes of the Eternal Flame",
+  "description": "In a fractured kingdom on the brink of collapse, ancient elemental forces awaken, threatening to engulf the world in darkness. Players will guide a group of unlikely heroes, each with unique abilities, through a series of pivotal events to prevent the return of the Void Sovereign. The story emphasizes player choice, branching paths, and character-driven narratives.",
+  "overallProgress": 62,
+  "totalActs": 3,
+  "storyNotes": [
+    "Act 1 and Act 2 combat mechanics are mostly implemented.",
+    "Branching dialogue trees still need additional testing.",
+    "Cutscenes for Act 2 are partially completed."
+  ],
+  "acts": [
+    {
+      "actNumber": 1,
+      "title": "The Awakening",
+      "status": "Completed",
+      "progress": 100,
+      "overview": "Heroes discover the elemental corruption spreading across the land and must unite.",
+      "objectives": [
+        "Introduce main characters",
+        "Teach basic combat mechanics",
+        "Establish elemental corruption threat"
+      ],
+      "milestones": [
+        "Character introduction scenes",
+        "Tutorial dungeon completion",
+        "Village defense side quest"
+      ],
+      "gameplayStyle": "Linear exploration with tutorial combat, side quests, and character introductions.",
+      "cutscenesCompleted": 3,
+      "estimatedTimeHours": 25,
+      "branchingChoices": ["Player can choose to save the village or pursue the main villain first."],
+      "mainFocusCharacters": ["Arkon Blaze", "Eldon Frost"]
+    },
+    {
+      "actNumber": 2,
+      "title": "Shadows Rising",
+      "status": "In Development",
+      "progress": 65,
+      "overview": "The Void begins influencing kingdoms. Betrayal and dark forces grow stronger.",
+      "objectives": [
+        "Introduce antagonist factions",
+        "Expand exploration and open-world areas",
+        "Deepen character arcs"
+      ],
+      "milestones": [
+        "First major boss encounter",
+        "Character side story completion",
+        "Branching choice consequences implemented"
+      ],
+      "gameplayStyle": "Open-area missions with side quests, stealth elements, and character-specific story arcs.",
+      "cutscenesCompleted": 2,
+      "estimatedTimeHours": 40,
+      "branchingChoices": ["Player choices impact faction alliances.", "Character loyalty affects story outcomes."],
+      "mainFocusCharacters": ["Lyra Moonshadow", "Kael Stormrider"]
+    },
+    {
+      "actNumber": 3,
+      "title": "Fall of the Sovereign",
+      "status": "Planned",
+      "progress": 20,
+      "overview": "Final confrontation against the Void Sovereign in a collapsing realm. Multiple endings possible.",
+      "objectives": [
+        "Complete all main character arcs",
+        "Execute final battle sequence",
+        "Resolve branching story paths"
+      ],
+      "milestones": [
+        "Multi-phase final boss fight",
+        "Optional side quests resolution",
+        "Endings rendering and cutscenes"
+      ],
+      "gameplayStyle": "High-intensity boss battles, multi-phase final encounter, and branching ending sequences.",
+      "cutscenesCompleted": 0,
+      "estimatedTimeHours": 60,
+      "branchingChoices": ["Ending depends on cumulative player choices across all acts."],
+      "mainFocusCharacters": ["All Characters"]
+    }
+  ],
+  "characterRoles": [
+    {
+      "name": "Arkon Blaze",
+      "storyRole": "Reluctant leader who must accept his destiny as Flame Bearer.",
+      "arcStatus": "Completed",
+      "mainActs": [1, 3]
+    },
+    {
+      "name": "Lyra Moonshadow",
+      "storyRole": "Former assassin seeking redemption after serving the Void.",
+      "arcStatus": "In Progress",
+      "mainActs": [2, 3]
+    },
+    {
+      "name": "Eldon Frost",
+      "storyRole": "Ancient mage who understands the origin of the elemental corruption.",
+      "arcStatus": "Completed",
+      "mainActs": [1, 2, 3]
+    },
+    {
+      "name": "Kael Stormrider",
+      "storyRole": "Scout and strategist who discovers the Void invasion early.",
+      "arcStatus": "In Progress",
+      "mainActs": [2]
+    },
+    {
+      "name": "Seraphina Dawn",
+      "storyRole": "Spiritual protector who binds the team together.",
+      "arcStatus": "Planned",
+      "mainActs": [3]
+    },
+    {
+      "name": "Draven Nightfall",
+      "storyRole": "Tragic anti-hero struggling against inner darkness.",
+      "arcStatus": "Planned",
+      "mainActs": [3]
+    }
+  ]
+}
