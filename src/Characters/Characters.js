@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 import React from "react";
 import "./Characters.css"
+import characters from "./Characters.json"
 
 import warrior from "./Characters_img/warrior.png"
 import mage from "./Characters_img/mage.png"
@@ -9,75 +10,21 @@ import assasin from "./Characters_img/assasin.png"
 import paladin from "./Characters_img/paladin.png"
 import dark_knight from "./Characters_img/dark_knight.png"
 
+const imageMap = {
+    warrior: warrior,
+    assasin: assasin,
+    mage: mage,
+    ranger: ranger,
+    paladin: paladin,
+    dark_knight: dark_knight,
+};
 
-
-let items = [
-    {
-        id: 1,
-        name: "Arkon Blaze",
-        role: "Warrior",
-        description: "A frontline melee fighter with high durability and powerful flame-infused attacks.",
-        image: warrior,
-        weapon: "Flame Greatsword",
-        abilities: ["Inferno Slash", "Shield Guard", "Berserker Rage"],
-        difficulty: "Medium"
-    },
-    {
-        id: 2,
-        name: "Lyra Moonshadow",
-        role: "Assassin",
-        description: "A stealth-based assassin who eliminates enemies before they even notice her presence.",
-        image: assasin,
-        weapon: "Twin Shadow Daggers",
-        abilities: ["Shadow Step", "Backstab", "Vanish"],
-        difficulty: "Hard"
-    },
-    {
-        id: 3,
-        name: "Eldon Frost",
-        role: "Mage",
-        description: "Master of frost magic capable of freezing entire battlefields.",
-        image: mage,
-        weapon: "Ancient Ice Staff",
-        abilities: ["Frost Nova", "Blizzard Storm", "Ice Barrier"],
-        difficulty: "Easy"
-    },
-    {
-        id: 4,
-        name: "Kael Stormrider",
-        role: "Ranger",
-        description: "An elite archer who commands lightning and strikes from long range.",
-        image: ranger,
-        weapon: "Thunder Bow",
-        abilities: ["Lightning Arrow", "Eagle Eye", "Storm Volley"],
-        difficulty: "Medium"
-    },
-    {
-        id: 5,
-        name: "Seraphina Dawn",
-        role: "Paladin",
-        description: "A holy warrior who protects allies and heals them during combat.",
-        image: paladin,
-        weapon: "Sacred Hammer",
-        abilities: ["Divine Shield", "Holy Smite", "Healing Light"],
-        difficulty: "Easy"
-    },
-    {
-        id: 6,
-        name: "Draven Nightfall",
-        role: "Dark Knight",
-        description: "A corrupted knight wielding forbidden dark energy.",
-        image: dark_knight,
-        weapon: "Cursed Blade",
-        abilities: ["Dark Slash", "Soul Drain", "Nightmare Form"],
-        difficulty: "Hard"
-    },
-];
+let items = characters;
 
 function renderCharacters() {
     return items.map((item) => (
         <div className="card" key={item.id}>
-            <img src={item.image} alt={item.name} className="card__image" />
+            <img src={imageMap[item.image]} alt={item.name} className="card__image" />
 
             <h3>{item.name}</h3>
             <h5>{item.role}</h5>

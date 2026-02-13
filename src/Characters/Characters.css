@@ -19,4 +19,5 @@
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    object-position: top center; /* shows more of the top part */
 }
